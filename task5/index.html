@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="parent">
+        <header class="header">
+            <h1>Weather App</h1>
+            <p>Enter a city name to get the current weather</p>
+        </header>
+        <div class="search-box">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name">
+            <button id="search-btn" class="search-btn">Search</button>
+        </div>
+        <div class="weather-details" id="weather-body">
+            <!-- Weather details will be appended here through JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- SweetAlert CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
